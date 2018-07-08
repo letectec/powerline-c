@@ -10,3 +10,5 @@ add_executable(powerline-c src/main.c
         src/print.h
         src/powerline.h
         src/ansi.c src/utils.c)
+
+install(TARGETS powerline-c DESTINATION bin)
