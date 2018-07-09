@@ -23,3 +23,26 @@ So yeah. Enjoy!
 
 ## Installation
 
+You'll need CMake and a working C compiler. That's all.
+
+```sh
+
+git clone https://github.com/Myuujinn/powerline-c.git
+cd powerline-c
+cmake .
+cmake --build .
+sudo cmake --build . --target install
+
+```
+powerline-c will be installed in /usr/local/bin.
+Then add it to your shell.
+
+# Add it to your shell
+
+## Fish
+
+```fish
+function fish_prompt
+    powerline-c $status
+end
+```
