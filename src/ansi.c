@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2018
-** powerline_c
-** File description:
-** ansi.c
-*/
-
 #include "ansi.h"
 
 const char	ansi_reset[] = ANSI_RESET;

@@ -3,7 +3,6 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdbool.h>
-#include <sys/stat.h>
 #include <errno.h>
 #include "ansi.h"
 #include "print.h"
