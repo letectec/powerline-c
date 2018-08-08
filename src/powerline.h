@@ -1,6 +1,6 @@
 #pragma once
 
-#define	BUFFER_SIZE	1024	// terminal can hold at most 200 columns so
+#define BUFFER_SIZE	1024	// terminal can hold at most 200 columns so
 				// we should be fine
 
 #define HOME_PATTERN	"~\0~"	// out of bounds of a null terminated string
